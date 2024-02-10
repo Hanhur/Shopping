@@ -1,9 +1,11 @@
-
+import Header from "./components/header/Header";
+import Promo from "./components/promo/Promo";
 
 const App = () => {
     return (
-        <div>
-            Test
+        <div className="App">
+           <Header/>
+           <Promo/>
         </div>
     );
 }

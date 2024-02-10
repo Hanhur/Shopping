@@ -1,0 +1,91 @@
+.promo 
+{
+    margin-bottom: 63px;
+}
+
+.promo__content
+{
+    display: flex;
+    column-gap: 24px;
+    padding-top: 68px;
+    padding-left: 120px;
+    border-radius: 59px;
+    background-color: #F4F6F5;
+}
+.promo__text
+{
+
+}
+
+.promo__title 
+{
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 1.25;
+    color: var(--textColor);
+    max-width: 480px;
+    margin-bottom: 40px;
+}
+
+.promo__desc
+{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.6px;
+    width: 606px;
+    color: var(--textColor);
+    margin-bottom: 32px;
+}
+
+.promo__btn-wrapper
+{
+    display: flex;
+    align-items: center;
+    column-gap: 34px;
+}
+
+.promo__btn-wrapper::before
+{
+    content: '';
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url('../../img/icons/decor-yellow.svg');
+}
+
+.promo__btn
+{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #000;
+    padding: 18px 40px;
+}
+.hignlight
+{
+    display: inline-block;
+    position: relative;
+}
+.hignlight span 
+{
+    position: relative;
+}
+.hignlight::before
+{
+    content: '';
+    position: absolute;
+    display: block;
+    top: -12px;
+    left: -40px;
+    right: -160px;
+    bottom: 0px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+}
+.hignlight--yellow::before
+{
+    background-color: var(--yellow);
+    right: -110px;
+}
